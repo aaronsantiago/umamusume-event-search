@@ -14,6 +14,7 @@ export default defineConfig({
     sveltekit(),
     SvelteKitPWA({
       registerType: 'autoUpdate',
+      trailingSlash: 'always',
       devOptions: {
         enabled: true
         /* other options */
